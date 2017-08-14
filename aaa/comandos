@@ -1,0 +1,79 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\H E R O K U\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+git add -A
+git commit -am "se modifica el parametro sanitaizer porque cambio para el devise 4, se agrega la gem letter_opener en developmente para que la confirmacion del correo sea local"
+git push heroku  master
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+git push heroku -f master
+git remote add origin https://github.com/rrg1459/detodocon.git
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\G I T   H U B\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+git init
+git fetch https://github.com/rrg1459/DeTodoCon.git
+git pull https://github.com/rrg1459/DeTodoCon.git
+git add -A
+git commit -m "se sube el 2do commit"
+git remote add origin https://github.com/rrg1459/DeTodoCon.git
+git push -u origin -f master
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+# clave de busqueda xxxmodeloproductocarrito
+
+
+
+/////////////////////////////////////////
+git config http.postBuffer 524288000
+heroku git:clone -a detodocon
+/////////////////////////////////////////
+
+
+
+heroku restart -a detodocon
+heroku run rails console
+
+heroku pg:psql --app detodocon
+---------------------------------
+heroku
+
+
+heroku apps --all		para ver todas las aplicaciones
+heroku apps:destroy -app xxx    borrar la aplicacion xxx
+$ heroku apps:rename newname
+
+heroku apps:destroy -app safe-refuge-26378
+Open app More 
+
+
+
+
+
+run rake db:version
+heroku pg:info
+
+https://devcenter.heroku.com/articles/heroku-postgresql#using-the-cli
+
+heroku pg:psql (para entrar a la consola de postgres
+heroku pg:psql --app detodocon
+
+heroku restart -a app-name
+
+heroku run rake db:migrate (para migrar las BD y se levante en el servidor de heroku
+
+
+
+
+rails generate model Article title:string text:text
+rails generate model Comment commenter:string body:text 
+ 
+article:references
+
+rails db:migrate
+
+
