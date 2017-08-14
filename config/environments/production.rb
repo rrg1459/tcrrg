@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
 # config.action_mailer.default_url_options = { :host => "http://twitter-clone-rails.herokuapp.com/" }
-  config.action_mailer.default_url_options = { :host => 'portal.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'tcrrg.herokuapp.com' }
 
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.perform_deliveries = true

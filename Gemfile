@@ -36,9 +36,31 @@ end
 gem 'rails', '~> 5.0.5'
 # Use sqlite3 as the database for Active Record
 group :development do
-  gem 'sqlite3'
   gem 'letter_opener'
+
+
+  gem 'spring'
+  gem 'better_errors'
+  gem 'guard'
+  gem 'guard-rspec', '~> 4.2.8'
 end
+
+group :development, :test do
+  gem 'sqlite3'
+  gem 'factory_girl_rails'
+#  gem 'rspec-rails', '~> 3.0.0.beta'
+#  gem 'rspec', '~> 3.0.0.beta2'
+  gem 'faker'
+  gem 'populator'
+end
+
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'shoulda-callback-matchers', '>=0.3.2'
+end
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

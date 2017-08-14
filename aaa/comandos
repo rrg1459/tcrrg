@@ -1,7 +1,8 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\H E R O K U\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 git add -A
-git commit -am "se modifica el parametro sanitaizer porque cambio para el devise 4, se agrega la gem letter_opener en developmente para que la confirmacion del correo sea local"
+git commit -am "1.- se modifica el parametro config.action_mailer.default_url_options = { :host => 'tcrrg.herokuapp.com' } para que pueda enviar los correos de confirmacion 2.- se agregan todas las gemas originales menos las rspec que quedan en comentarios"
+
 git push heroku  master
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 git push heroku -f master
