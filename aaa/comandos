@@ -1,7 +1,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\H E R O K U\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 git add -A
-git commit -am "Se empieza la traducción 01"
+git commit -am "Se empieza la traduccion 01"
 
 git push heroku  master
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
