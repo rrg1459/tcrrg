@@ -2,25 +2,27 @@
   <div class="col-lg-10 col-lg-offset-1">
     <div class="row">
       <div id="landing-content" class="col-lg-9">
-        <h3><b>Welcome to my Twitter Clone RRG,</b></h3>
+        <h3><b>Bienvenidos a un clon de Twitter en RoR</b></h3>
         <p>
-          An Open Source clone of Twitter using Ruby on Rails. This is not an exact copy of Twitter but has a similar functionality. This is to demonstrate how easy is it develop to a Social networking app using Ruby on Rails.
+          Este aplicativo es un clon de código abierto de Twitter en Ruby on Rails tomado de sudharti en <a href="https://github.com/sudharti/twitter-clone/">Github</a>. 
+          Esta no es una copia exacta de Twitter pero tiene una funcionalidad similar. 
+          La idea es tener en español y demostrar lo fácil que es desarrollar una aplicación de redes sociales utilizando Ruby on Rails.
         </p>
         <p>
-          Checkout the Source code on <a href="https://github.com/sudharti/twitter-clone/">Github</a>
+          Este código se puede descargar en <a href="https://github.com/rrg1459/tcrrg/">Github</a>
         </p>
       </div>
       <div class="col-lg-3">
         <div class="row">
           <div class="well">
             <%= render "devise/sessions/form" %>
-            <%= link_to "Forgot your password?", new_password_path(:user) %>
+            <%= link_to "Olvidaste tu contraseña?", new_password_path(:user) %>
           </div>
         </div>
         <div class="row">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Create an Account</h3>
+              <h3 class="panel-title">Crea una Cuenta</h3>
             </div>
             <div class="panel-body">
               <%= render "devise/registrations/form" %>

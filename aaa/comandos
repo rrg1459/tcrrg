@@ -1,7 +1,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\H E R O K U\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 git add -A
-git commit -am "1.- se modifica el parametro config.action_mailer.default_url_options = { :host => 'tcrrg.herokuapp.com' } para que pueda enviar los correos de confirmacion 2.- se agregan todas las gemas originales menos las rspec que quedan en comentarios"
+git commit -am "Se empieza la traducción 01"
 
 git push heroku  master
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
