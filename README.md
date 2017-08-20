@@ -12,5 +12,9 @@ rails s
 
 ## Traduccion al espanol de Twitter-Clone
 20 agosto 2017
+
+fuente:
 [http://twitter-clone-rails.herokuapp.com/](http://twitter-clone-rails.herokuapp.com/)
 
+Traduccion
+[http://tcrrg.herokuapp.com/](http://tcrrg.herokuapp.com/)
