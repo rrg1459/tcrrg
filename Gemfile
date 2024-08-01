@@ -16,7 +16,7 @@ gem 'counter_culture', '~> 0.1.23'
 gem 'rails_autolink'
 gem 'backstretch-rails'
 ####
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 ####
